@@ -79,7 +79,7 @@ cursor: pointer;
 .recordar:hover{
     text-decoration: underline;
 }
-input[type="submit"]{
+.input-btn{
 width: 100%;
 height: 50px;
 border: 1px solid;
@@ -90,7 +90,7 @@ color: white;
 cursor: pointer;
 outline: none;
 }
-input[type="submit"]:hover{
+.input-btn:hover{
     border-color: #1f53c5;
     transition: 5s;
 
@@ -108,3 +108,34 @@ input[type="submit"]:hover{
 .registrarse a:hover{
     text-decoration: none;
 }
+/*desde aqui es las animaciones*/
+.avatar {
+    /* Rounded border */
+    border-radius: 50%;
+
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Size */
+    height: 10rem;
+    width: 10rem;
+}
+
+.avatar__image {
+    /* Size */
+    height: 50%;
+    width: 50%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+
+.scale-up-center:hover{animation:scale-up-center 0.4s; } @keyframes scale-up-center{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }

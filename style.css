@@ -194,3 +194,24 @@ p {
    
     
 }
+.btn1{position: absolute;
+    width: 200px;
+    height: 200px;
+    background: rgba(255, 0, 0, 0.696);
+    border-radius: 100% ;
+    border: transparent;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin: 150px 130px;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: aqua;
+    
+}
+.btn1:hover{
+    background-color: rgba(38, 218, 59, 0.641);
+    border: 2px;
+    color: aqua;
+    
+}

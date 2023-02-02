@@ -160,4 +160,11 @@ outline: none;
 
 
 }
-
+.sometxt {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;  
+    z-index: 10;    
+}

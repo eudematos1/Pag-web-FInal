@@ -18,7 +18,6 @@ for(i=0;i<url.length;i++){
 
 
 }
-console.log(url.substring(pos + 2, pos2))
 
 doc.src=`https://drive.google.com/uc?export=view&id=${url.substring(pos+2,pos2)}`;
 
